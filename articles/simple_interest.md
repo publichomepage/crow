@@ -29,7 +29,7 @@ A = P + SI
 
 **Example:**
 - Find the simple interest and amount on ₹16,000 at 15% per annum for 3 years.
-  
+
   ```
   SI = (16000 × 15 × 3) / 100 = ₹7200
   Amount = 16000 + 7200 = ₹23200
@@ -49,7 +49,7 @@ If a sum becomes **n times** itself in T years on simple interest:
 **Example:**
 - A sum becomes 3 times in 4 years.  
   Find the rate:
-  
+
   ```
   R% = (3 - 1) × 100 / 4 = 50%
   ```
@@ -68,7 +68,8 @@ If a sum **doubles** in 7 years at simple interest:
   ```
 
 **Example:**
-- A sum doubles in 7 years. Find time to become 5 times:  
+- A sum doubles in 7 years. Find time to become 5 times:
+
   ```
   Time = 4 × 7 = 28 years
   ```
@@ -179,10 +180,59 @@ Value of each installment = 39600 ÷ 448 ≈ ₹88.39
 
 ---
 
-## Summary
+# Crow Techniques (Shortcut Tricks)
 
-- **Simple Interest** is straightforward and linear.
-- Useful for problems involving **doubling, tripling sums**, and **installments**.
-- **Key formula**: `SI = (P × R × T) / 100`
-- Always **read carefully** when multiple rates or periods are involved.
+✅ **Shortcut for Principal if SI, Rate, and Time given:**
+
+```
+P = (SI × 100) / (R × T)
+```
+
+✅ **Shortcut for Rate if SI, Principal, and Time given:**
+
+```
+R = (SI × 100) / (P × T)
+```
+
+✅ **Shortcut for Time if SI, Principal, and Rate given:**
+
+```
+T = (SI × 100) / (P × R)
+```
+
+✅ **Sum Doubling, Tripling Quick Formula:**
+
+If sum becomes n times in T years:
+
+```
+Rate % = (n - 1) × 100 / T
+```
+
+✅ **Difference between Two Amounts Shortcut:**
+
+If two amounts after different times differ by D:
+
+```
+P = (D × 100) / (Difference in years × Rate)
+```
+
+✅ **Installment Shortcut (per installment value):**
+
+```
+Total Units = 100 + (100 + R) + (100 + 2R) + (100 + 3R) + ...
+```
+Then:
+
+```
+Installment = Total Due ÷ Total Units
+```
+
+---
+
+# Summary
+
+- **Simple Interest** is linear and easy to calculate.
+- **Key Formula**: `SI = (P × R × T) / 100`
+- **Use Crow Techniques** for fastest solving in exams and mental calculations.
+- **Shortcut Formulas** are very handy for time-saving during tests.
 
